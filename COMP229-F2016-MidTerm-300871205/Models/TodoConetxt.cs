@@ -20,6 +20,10 @@ namespace COMP229_F2016_MidTerm_300871205.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Todo>()
+                  .Property(e => e.TodoDescription)
+                  .IsFixedLength();
         }
     }
 }
+       

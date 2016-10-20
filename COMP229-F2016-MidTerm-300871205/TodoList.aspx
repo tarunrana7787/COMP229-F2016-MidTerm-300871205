@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="Todo List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoList.aspx.cs" Inherits="COMP229_F2016_MidTerm_300871205.TodoList" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>Todo List </h1>
+
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
@@ -10,8 +12,7 @@
                     <i class="fa fa-plus"></i>Add Todo
                 </a>
                 <asp:GridView ID="TodoListGridView" runat="server" AutoGenerateColumns="false"
-                    CssClass="table table-bordered table-striped table-hover" DataKeyNames="TodoID"
-                    >
+                    CssClass="table table-bordered table-striped table-hover" DataKeyNames="TodoID">
 
                     <Columns>
                         <asp:BoundField DataField="TodoID" HeaderText="TodoID" Visible="true" />
