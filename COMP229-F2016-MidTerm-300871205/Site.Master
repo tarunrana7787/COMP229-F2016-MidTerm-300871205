@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP229_F2016_MidTerm_300871205.Site" %>
-
+<!--Name- Tarun Rana
+    Student ID - 300871205
+    Date - October 19th 2016
+    -->
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -55,7 +58,7 @@
     </form>
 
     <!-- JavaScript -->
-    <script src="Scripts/jquery-2.2.3.min.js"></script>
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/app.js"></script>
 </body>
