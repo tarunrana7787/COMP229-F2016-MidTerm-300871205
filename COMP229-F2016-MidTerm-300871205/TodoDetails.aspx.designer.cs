@@ -13,31 +13,31 @@ namespace COMP229_F2016_MidTerm_300871205 {
     public partial class TodoDetails {
         
         /// <summary>
-        /// Todo NameTextBox control.
+        /// TodoNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Todo NameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox TodoNameTextBox;
         
         /// <summary>
-        /// Todo NotesTextBox control.
+        /// FirstNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Todo NotesTextBox;
+        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
         
         /// <summary>
-        /// SendButton control.
+        /// CheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SendButton;
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox;
         
         /// <summary>
         /// CancelButton control.
@@ -47,5 +47,14 @@ namespace COMP229_F2016_MidTerm_300871205 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button CancelButton;
+        
+        /// <summary>
+        /// SaveButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SaveButton;
     }
 }
