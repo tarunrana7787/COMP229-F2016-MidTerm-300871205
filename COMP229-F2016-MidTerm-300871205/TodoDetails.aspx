@@ -2,15 +2,19 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
    
          
-    <div class="sign">
-        <div class="loginText">Todo Details</div>
-        <input name="MainContentTodo NameTextBox" type="text" id="MainContent_Todo NameTextBox" class="sign" placeholder="Todo Name"  />
-        <br />
-        <input name="MainContentTodo NotesTextBox" type="text" id="MainContent_Todo NotesTextBox" class="sign" placeholder="Todo Notes"  />
-         <input type="cancel" name="MainContentCancelButton" value="cancel" id="MainContent_CancelButton" class="btn btn-primary CancelButton"  />
-           <input type="Save" name="MainContentSaveButton" value="save" id="MainContent_SaveButton" class="btn btn-primary SaveButton" />
-        <br />
-  
-    </div>
+    
+        <div class="form-group">
+                    <label for="TextBox">Todo Name</label>
+                    <asp:TextBox CssClass="form-control" ID="TodoNameTextBox" runat="server" required="true"></asp:TextBox>
+                </div>
+                <div class="form-group">
+                    <label for="TextBox">Todo Notes</label>
+                    <asp:TextBox CssClass="form-control" ID="TodoNotesTextBox" runat="server" required="true"></asp:TextBox>
+                </div>
+                
+                <asp:Button ID="SendButton" CssClass="btn btn-primary btn-lg" runat="server" Text="Send" OnClick="SendButton_Click" />
+    <asp:Button ID="CancelButton" CssClass="btn btn-primary btn-lg" runat="server" Text="Cancel" OnClick="CancelButton_Click" />
+       
+    
 
 </asp:Content>
